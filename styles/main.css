@@ -1,0 +1,9 @@
+@import './components.css';
+@import './reset.css';
+@import './inputform.css';
+@import './timemanager.css';
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+	background-color: #64876f;
+}

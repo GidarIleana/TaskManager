@@ -1,0 +1,66 @@
+.main {
+    background:#055e34 ;
+    color: #FFF;
+    border: black; 
+}
+  
+.danger { 
+    background: rgb(226, 27, 27);
+    color: #FFF;
+    border: black;
+}
+
+.main:hover{
+    background: rgb(4, 192, 35);
+}
+
+.danger:hover{
+    background: rgb(177, 24, 24);
+}
+
+input[type=text] , input[type=password] {
+    border: none;
+    border-bottom: 2px black solid;	
+	height:30px;
+}
+
+.navbar {
+    height: 30px;
+    background-color: #d2c680;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-items: center;
+}
+
+.card {
+    height: 100%;
+    width: 200px;
+    padding: 15px;
+    border: 2px solid #055e34;
+    text-align: center;
+}
+
+.card .card-title {
+    font-weight: bolder;
+    font-size: large;
+    padding: 5px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #055e34;
+	color: black;
+}
+
+.card .card-description {
+    padding: 5px;
+    line-height: 15px;
+	border-bottom: 2px solid #055e34;
+	color: black;
+}
+
+.card .card-date {
+    padding: 5px;
+    line-height: 15px;
+	border-bottom: 2px solid #055e34;
+	color: black;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(20, 33, 61);
+    color: white;
+}
+.input-form {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(229, 229, 229, 0.5);
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+
+#taskList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+

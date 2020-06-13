@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.input{
+    width: 15vw;
+    margin: 5px 0 5px 0;
+	padding: 1px;
+}
+
+.form{
+    width: 25vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2c680;
+    color: black;
+}
